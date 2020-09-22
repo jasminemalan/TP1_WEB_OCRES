@@ -1,5 +1,8 @@
+HTML CSSResult
+EDIT ON
+/*STYLES GENERAUX*/
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Avenir, sans-serif;
     padding: 0px;
     margin: 0px;
     text-align: justify;
@@ -16,27 +19,28 @@ a{
     text-decoration: none;
     color: #000;
 }
-/* HEADER*/
 
-header {
-width: 100%;
-padding : 20px 0px;
-background: url("CV-Jasmine-Manigne-Malan") #4f4f4f;
-box-shadow: 0px 0px 15px #333;
-border-bottom : 2px solid #fff;
-height: 120px;
+/*HEADER & FOOTER*/
+header, footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: #4f4f4f;
+    box-shadow: 0px 0px 15px #333;
 }
-header h1 {
-    color : white; 
-    font-size : 1.5em;
+header{
+    border-bottom: 2px solid #fff;
+    height: 120px;
+}
+header h1{
+    color: white;
+    font-size: 1.5em;
     width: 90%;
-    margin : 0 auto;
-
+    margin: 0 auto;
+}
 
 /*SECTIONS*/
-
 section{
-    display: flex;
+    display: flex; 
     flex-flow: row wrap;
     justify-content: center;
     width: 100%;
@@ -46,15 +50,17 @@ section{
     background-color: #fff;
 }
 
-section h2 {
+section h2{
     margin: 20px 0;
     width: 90%;
 }
-section > div {
+section > div{
     width: 90%;
 }
+
+/*SECTION INFOS*/
 .photo{
-    text-align: center;
+    text-align: right;
 }
 .photo img{
     width: 150px;
@@ -62,8 +68,11 @@ section > div {
     border: 3px solid #fff;
     box-shadow: 0px 0px 10px #777;
     border-radius: 50%;
-    margin-top: -80px;
+    margin-top: -50px;
+    margin-right: 290px;
 }
+
+
 .prez{
     border-bottom: 2px dashed #ccc;
 }
@@ -243,3 +252,6 @@ section > div {
         flex: 0 1 25%;
     }
 }
+
+
+
